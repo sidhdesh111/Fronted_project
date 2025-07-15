@@ -1,0 +1,144 @@
+@media (max-width:1300px) {
+    /* navbar design  */
+
+    .header-wrapper .menu-navbar-nav {
+        width: auto;
+    }
+
+}
+
+@media (max-width:1230px) {
+
+    /* navbar design  */
+    .header-wrapper .nav-item {
+        margin-inline: .4rem;
+    }
+
+    .header-wrapper .learn-more-btn {
+        padding: .5rem 1rem !important;
+    }
+
+    /* bannner style  */
+
+    .banner-wrapper .banner-title {
+        font-size: 2.8rem;
+    }
+
+    .banner-wrapper .banner-title-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:1070px) {
+
+    /* navbar design  */
+    .header-wrapper .nav-item {
+        margin-inline: .1rem;
+    }
+
+    /* about style  */
+
+
+    .about-wrapper .about-title {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width:991px) {
+
+    /* navbar design  */
+
+    .header-wrapper .navbar-brand img {
+        width: 10rem;
+    }
+
+    .header-wrapper .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-wrapper .navbar-toggler .navbar-toggler-icon {
+        font-size: 1.1rem;
+    }
+
+    .header-wrapper .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .header-wrapper .navbar-collapse {
+        background: var(--bg-white);
+        text-align: center;
+        height: 100vh !important;
+        transition: 0.s ease-in-out;
+        -webkit-transition: 0.s ease-in-out;
+        -moz-transition: 0.s ease-in-out;
+        -ms-transition: 0.s ease-in-out;
+        -o-transition: 0.s ease-in-out;
+    }
+
+    .header-wrapper .menu-navbar-nav {
+        align-items: center;
+    }
+
+    .header-wrapper .nav-item .nav-link {
+        margin-top: .9rem;
+        font-size: 1.1rem;
+        color: var(--text-dark-grey);
+    }
+
+    .header-wrapper .nav-item:last-child .nav-link {
+        margin-bottom: 1.1rem;
+    }
+
+    .header-wrapper .learn-more-btn {
+        padding: .8rem 1.8rem !important;
+    }
+
+    /* bannner style  */
+
+    .banner-wrapper .banner-title {
+        font-size: 2.3rem;
+    }
+
+    .banner-wrapper .banner-title-text {
+        font-size: 1.05rem;
+    }
+
+    .about-wrapper .about-number{
+        margin: 1.2rem auto;
+    }
+    .about-wrapper .about-title {
+        font-size: 1.8rem;
+    }
+}
+
+
+@media (max-width:570px) {
+    /* navbar design  */
+
+
+    /* bannner style  */
+
+    .banner-wrapper .learn-more-btn-section {
+        justify-content: center;
+    }
+
+    .banner-wrapper .banner-title-text {
+        max-width: 100%;
+    }
+
+    .pricing-wrapper .free-title {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 130%;
+    margin-bottom: 1.5rem;
+    color: var(--text-black);
+}
+}
+
+/* about style  */
+
